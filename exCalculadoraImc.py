@@ -14,7 +14,7 @@ def calculaimc(pes, alt):
         return 0
 
 
-if nome == False:
+if not nome:
     print('Fim... valores inseridos inválidos!!!')
 else:
     peso = input('Insira seu peso: ')
