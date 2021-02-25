@@ -4,8 +4,7 @@ peso = ""
 altura = ""
 
 
-# Funcao
-# Se um dos valores for igual a vazio, retorna 0
+# funcao
 def calculaimc(pes, alt):
     try:
         pes = float(pes)
